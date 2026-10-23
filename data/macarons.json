@@ -1,0 +1,87 @@
+{
+    "title": "Macarons",
+    "subtitle": "Delicate macarons in pastel tones for gifting and pretty dessert moments.",
+    "banner": "Pastel, delicate and gift-worthy — build your perfect macaron box with the flavour, colour and note you love.",
+    "categories": ["French Macarons", "Combo Boxes", "Gift Macarons"],
+    "items": [
+        {
+            "id": "french-macaron-box",
+            "name": "French Macaron Box",
+            "category": "French Macarons",
+            "description": "Delicate macarons in vibrant colours and soft fillings for gifting and celebrations.",
+            "images": [
+                "assets/images/products/macarons/french_macron.jpg",
+                "assets/images/products/macarons/tricolor_1.jpg"
+            ],
+            "badge": "Luxury Bite",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 420 },
+                    { "label": "Box of 12", "price": 820 },
+                    { "label": "Box of 24", "price": 1600 }
+                ],
+                "flavours": ["Strawberry", "Chocolate", "Pistachio", "Vanilla"],
+                "colors": ["Pink Pastel", "Cream Gold", "Tricolor", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "combo-macaron-box",
+            "name": "Combo Macaron Box",
+            "category": "Combo Boxes",
+            "description": "A mixed set of buttery macarons with signature cream fillings and gift-ready styling.",
+            "images": [
+                "assets/images/products/macarons/combo_box_1.jpg",
+                "assets/images/products/macarons/combo_box_2.jpg",
+                "assets/images/products/macarons/combo_mini.jpg"
+            ],
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 430 },
+                    { "label": "Box of 12", "price": 860 },
+                    { "label": "Box of 24", "price": 1650 }
+                ],
+                "flavours": [
+                    "Chocolate & Caramel",
+                    "Strawberry Cream",
+                    "Pistachio"
+                ],
+                "colors": ["Rose Pink", "Cream Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "tricolor-macaron-box",
+            "name": "Tricolor Macaron Box",
+            "category": "Gift Macarons",
+            "description": "Colour-rich macarons arranged for thoughtful gifting and festive occasions.",
+            "images": [
+                "assets/images/products/macarons/tricolor_1.jpg",
+                "assets/images/products/macarons/tricolor_2.jpg"
+            ],
+            "badge": "Festive Pick",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 460 },
+                    { "label": "Box of 12", "price": 900 },
+                    { "label": "Box of 24", "price": 1700 }
+                ],
+                "flavours": ["Vanilla", "Pistachio", "Chocolate"],
+                "colors": ["Tricolor", "Pastel Mix", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

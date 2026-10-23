@@ -1,0 +1,114 @@
+{
+    "shop": {
+        "name": "PD's Bake House",
+        "tagline": "Freshly baked joy, beautifully crafted since 2019.",
+        "whatsapp": "919943057607",
+        "phone": "+91 99430 57607",
+        "email": "Pdsbakehouse2018@gmail.com",
+        "instagram": "@pds_bake_house",
+        "instagramUrl": "https://www.instagram.com/pds_bake_house?utm_source=ig_web_button_share_sheet&srtk=ZDNlZDc0MzIxNw==",
+        "address": "JP Nagar 7th Phase, Bangalore, India",
+        "hours": "Tue-Sun: 10:00 AM – 9:00 PM",
+        "mapEmbedUrl": "https://www.google.com/maps?q=JP%20Nagar%207th%20Phase%20Bangalore%20India&output=embed",
+        "googleReviewUrl": "https://www.google.com/maps"
+    },
+    "order": {
+        "currency": "₹",
+        "messageIntro": "Hi! I would like to place an order for the following items:",
+        "fulfilment": ["Pickup", "Delivery"],
+        "minLeadDays": 2
+    },
+    "pages": [
+        {
+            "id": "home",
+            "title": "Home",
+            "file": "index.html",
+            "enabled": 1,
+            "order": 1
+        },
+        {
+            "id": "menu",
+            "title": "Menu",
+            "file": "catalog.html",
+            "data": "menu.json",
+            "enabled": 1,
+            "order": 2
+        },
+        {
+            "id": "diwali-sale",
+            "title": "Diwali Sale",
+            "file": "catalog.html",
+            "data": "diwali-sale.json",
+            "enabled": 1,
+            "order": 3
+        },
+        {
+            "id": "cakes",
+            "title": "Cakes",
+            "file": "catalog.html",
+            "data": "cakes.json",
+            "enabled": 1,
+            "order": 4
+        },
+        {
+            "id": "brownies",
+            "title": "Brownies",
+            "file": "catalog.html",
+            "data": "brownies.json",
+            "enabled": 1,
+            "order": 5
+        },
+        {
+            "id": "cupcakes",
+            "title": "Cupcakes",
+            "file": "catalog.html",
+            "data": "cupcakes.json",
+            "enabled": 1,
+            "order": 6
+        },
+        {
+            "id": "macarons",
+            "title": "Macarons",
+            "file": "catalog.html",
+            "data": "macarons.json",
+            "enabled": 1,
+            "order": 7
+        },
+        {
+            "id": "hampers",
+            "title": "Hampers",
+            "file": "catalog.html",
+            "data": "hampers.json",
+            "enabled": 1,
+            "order": 8
+        },
+        {
+            "id": "previous-works",
+            "title": "Previous Works",
+            "file": "previous-works.html",
+            "enabled": 1,
+            "order": 9
+        },
+        {
+            "id": "about-chef",
+            "title": "About the Chef",
+            "file": "about-chef.html",
+            "enabled": 1,
+            "order": 10
+        },
+        {
+            "id": "about-shop",
+            "title": "About the Shop",
+            "file": "about-shop.html",
+            "enabled": 1,
+            "order": 11
+        },
+        {
+            "id": "contact",
+            "title": "Contact",
+            "file": "contact.html",
+            "enabled": 1,
+            "order": 12
+        }
+    ]
+}

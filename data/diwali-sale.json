@@ -1,0 +1,155 @@
+{
+    "title": "Diwali Sale",
+    "subtitle": "Seasonal festive favourites with limited-time offers and gifting bundles.",
+    "banner": "Festive favourites, made to feel personal — choose your flavour, colour, box style and message for a warm Diwali surprise.",
+    "categories": [
+        "Gift Boxes",
+        "Festive Cakes",
+        "Cookies & Bites",
+        "Hamper Set"
+    ],
+    "items": [
+        {
+            "id": "diwali-hamper-set",
+            "name": "Diwali Hamper Set",
+            "category": "Hamper Set",
+            "description": "A festive gifting set with premium bakes, sweets and elegant festive styling.",
+            "images": [
+                "assets/images/products/hamper/diwali_hamper_set.jpg",
+                "assets/images/products/hamper/diwali_hamper_set_premium.jpg"
+            ],
+            "badge": "Festival Sale",
+            "eggless": true,
+            "available": true,
+            "leadDays": 5,
+            "originalPrice": 2490,
+            "validTill": "2026-11-30",
+            "options": {
+                "sizes": [
+                    { "label": "Classic", "price": 2290 },
+                    { "label": "Premium", "price": 3490 }
+                ],
+                "flavours": ["Festive Assortment"],
+                "colors": ["Saffron", "Maroon", "Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "diwali-saffron-cake",
+            "name": "Saffron Glow Cake",
+            "category": "Festive Cakes",
+            "description": "Saffron and cardamom cake with delicate cream and pistachio crunch.",
+            "images": [
+                "assets/images/products/cakes/pinatas_pista.jpg",
+                "assets/images/products/cakes/pinatas_gold.jpg",
+                "assets/images/products/cakes/brownie_cake_2.jpg",
+                "assets/images/products/cakes/mermaid_cake.jpg"
+            ],
+            "badge": "Festival Sale",
+            "eggless": true,
+            "available": true,
+            "leadDays": 3,
+            "originalPrice": 2200,
+            "validTill": "2026-11-15",
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 1790 },
+                    { "label": "2 kg", "price": 2890 }
+                ],
+                "flavours": ["Saffron Pistachio", "Rose Vanilla"],
+                "colors": ["Saffron", "Maroon", "Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "diwali-royal-box",
+            "name": "Royal Diwali Box",
+            "category": "Gift Boxes",
+            "description": "A festive assortment of cookies, brownies and small sweet bites.",
+            "images": [
+                "assets/images/products/hamper/diwali_hamper_set.jpg",
+                "assets/images/products/hamper/diwali_hamper_set_premium.jpg",
+                "assets/images/products/cakes/pinatas_blueberry.jpg",
+                "assets/images/products/cakes/brownie_cake_1.jpg"
+            ],
+            "badge": "Diwali Special",
+            "eggless": true,
+            "available": true,
+            "leadDays": 3,
+            "originalPrice": 2600,
+            "validTill": "2026-11-20",
+            "options": {
+                "sizes": [
+                    { "label": "Standard", "price": 2190 },
+                    { "label": "Deluxe", "price": 3290 }
+                ],
+                "flavours": ["Assorted"],
+                "colors": ["Maroon", "Gold", "Warm Cream", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "diwali-cookie-tray",
+            "name": "Diwali Cookie Tray",
+            "category": "Cookies & Bites",
+            "description": "A festive tray of spiced cookies, almond twists and butter biscuits.",
+            "images": [
+                "assets/images/products/cakes/unicorn_cake.jpg",
+                "assets/images/products/cakes/spiderman_cake.jpg",
+                "assets/images/products/cakes/pinatas_straberry_with_assorted_chocolate_inside.jpg",
+                "assets/images/products/hamper/christmas_hamper.jpg"
+            ],
+            "badge": "Festive Favourite",
+            "eggless": false,
+            "available": true,
+            "leadDays": 2,
+            "originalPrice": 1400,
+            "validTill": "2026-11-18",
+            "options": {
+                "sizes": [
+                    { "label": "500 g", "price": 799 },
+                    { "label": "1 kg", "price": 1399 },
+                    { "label": "1.5 kg", "price": 1999 }
+                ],
+                "flavours": ["Classic Butter", "Spiced Almond", "Hazelnut"],
+                "colors": [
+                    "Warm Gold",
+                    "Deep Maroon",
+                    "Classic Cream",
+                    "Custom"
+                ],
+                "allowMessage": false,
+                "allowDate": false
+            }
+        },
+        {
+            "id": "diwali-lantern-cake",
+            "name": "Lantern Glow Cake",
+            "category": "Festive Cakes",
+            "description": "A rich chocolate cake finished with gold shimmer accents and warm notes.",
+            "images": [
+                "assets/images/products/cakes/pinatas_chocolate_lover.jpg",
+                "assets/images/products/cakes/stranger_things_1.jpg",
+                "assets/images/products/cakes/stranger_things_2.jpg",
+                "assets/images/products/cakes/brownie_cake_1.jpg"
+            ],
+            "eggless": false,
+            "available": false,
+            "leadDays": 4,
+            "originalPrice": 2500,
+            "validTill": "2026-11-12",
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 1950 },
+                    { "label": "2 kg", "price": 3150 }
+                ],
+                "flavours": ["Dark Chocolate", "Hazelnut Crunch"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

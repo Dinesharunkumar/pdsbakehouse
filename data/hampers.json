@@ -1,0 +1,98 @@
+{
+    "title": "Hampers",
+    "subtitle": "Festive gifting boxes designed for celebrations and thoughtful surprises.",
+    "banner": "The sweetest gifting moment — personalise your hamper with the flavours, colours and message you love.",
+    "categories": ["Classic Hampers", "Luxury Gift Boxes", "Diwali Hampers"],
+    "items": [
+        {
+            "id": "sweet-joy-hamper",
+            "name": "Sweet Joy Hamper",
+            "category": "Classic Hampers",
+            "description": "A cheerful hamper of brownies, cookies and a mini cake for celebrations.",
+            "images": ["assets/images/products/hamper/christmas_hamper.jpg"],
+            "badge": "Gift Ready",
+            "eggless": true,
+            "available": true,
+            "leadDays": 3,
+            "options": {
+                "sizes": [
+                    { "label": "Standard", "price": 1990 },
+                    { "label": "Premium", "price": 2990 }
+                ],
+                "flavours": ["Assorted"],
+                "colors": [
+                    "Classic Beige",
+                    "Rose Gold",
+                    "Cream Theme",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "midnight-bloom-box",
+            "name": "Midnight Bloom Box",
+            "category": "Luxury Gift Boxes",
+            "description": "Elegant gifting box with soft pastries, cookies and satin ribbons.",
+            "images": ["assets/images/products/hamper/gulabjamun_rabi.jpg"],
+            "eggless": true,
+            "available": true,
+            "leadDays": 4,
+            "options": {
+                "sizes": [
+                    { "label": "Signature", "price": 2790 },
+                    { "label": "Luxury", "price": 3990 }
+                ],
+                "flavours": ["Floral Assortment"],
+                "colors": ["Dark Plum", "Rose Gold", "Ivory", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "festival-gifting-hamper",
+            "name": "Festival Gifting Hamper",
+            "category": "Diwali Hampers",
+            "description": "A festive selection of sweets, biscuits and brownie bites for gifting.",
+            "images": [
+                "assets/images/products/hamper/diwali_hamper_set.jpg",
+                "assets/images/products/hamper/diwali_hamper_set_premium.jpg"
+            ],
+            "badge": "Festival Sale",
+            "eggless": true,
+            "available": true,
+            "leadDays": 5,
+            "options": {
+                "sizes": [
+                    { "label": "Classic", "price": 2290 },
+                    { "label": "Grande", "price": 3290 }
+                ],
+                "flavours": ["Festive Assortment"],
+                "colors": ["Saffron", "Maroon", "Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "mini-gift-bundle",
+            "name": "Mini Gift Bundle",
+            "category": "Classic Hampers",
+            "description": "A compact hamper for thank-you gifts and client appreciation boxes.",
+            "images": ["assets/images/products/hamper/christmas_hamper.jpg"],
+            "eggless": false,
+            "available": false,
+            "leadDays": 3,
+            "options": {
+                "sizes": [
+                    { "label": "Small", "price": 1190 },
+                    { "label": "Large", "price": 1690 }
+                ],
+                "flavours": ["Assorted"],
+                "colors": ["Classic Beige", "Gift Brown", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+{
+    "title": "Menu",
+    "subtitle": "Bakes, biscuits and custom desserts for every celebration.",
+    "banner": "From everyday cravings to celebration gifting — customise the flavour, colour and message to make it yours.",
+    "categories": ["Brownies", "Cupcakes", "Macarons", "Hampers"],
+    "items": [
+        {
+            "id": "classic-fudge-brownie",
+            "name": "Classic Fudge Brownie",
+            "category": "Brownies",
+            "description": "Dense chocolate brownie with a crackly top and molten centre.",
+            "images": [
+                "assets/images/products/brownie/chocolate_brownie_with_gems.jpg"
+            ],
+            "badge": "Popular",
+            "eggless": false,
+            "available": true,
+            "leadDays": 1,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 450 },
+                    { "label": "Box of 12", "price": 850 },
+                    { "label": "Box of 24", "price": 1600 }
+                ],
+                "flavours": ["Dark Chocolate", "Milk Chocolate"],
+                "colors": ["Classic Brown", "Golden Drizzle", "Custom"],
+                "allowMessage": true,
+                "allowDate": false
+            }
+        },
+        {
+            "id": "nutella-brownie-cake",
+            "name": "Nutella Brownie Cake",
+            "category": "Brownies",
+            "description": "A rich brownie cake layered with creamy Nutella and a glossy finish.",
+            "images": [
+                "assets/images/products/brownie/nutella_brownie_cake.jpg"
+            ],
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Half kg", "price": 1200 },
+                    { "label": "1 kg", "price": 2200 },
+                    { "label": "2 kg", "price": 3500 }
+                ],
+                "flavours": ["Nutella Fudge", "Chocolate Ganache"],
+                "colors": ["Dark Cocoa", "Gold Accents", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "avengers-cupcake-box",
+            "name": "Avengers Cupcake Box",
+            "category": "Cupcakes",
+            "description": "Playful cupcakes in bold themed colours for birthdays and fun celebrations.",
+            "images": ["assets/images/products/cup_cakes/avengers.jpg"],
+            "badge": "Fun Pick",
+            "eggless": true,
+            "available": true,
+            "leadDays": 1,
+            "options": {
+                "sizes": [
+                    { "label": "6 cupcakes", "price": 420 },
+                    { "label": "12 cupcakes", "price": 780 },
+                    { "label": "24 cupcakes", "price": 1480 }
+                ],
+                "flavours": [
+                    "Vanilla Bean",
+                    "Strawberry Cream",
+                    "Chocolate Fudge"
+                ],
+                "colors": [
+                    "Classic Pink",
+                    "Royal Blue",
+                    "Pastel Mix",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "customized-cupcake-box",
+            "name": "Customized Cupcake Box",
+            "category": "Cupcakes",
+            "description": "A fully custom cupcake box with chosen flavours, colours and message finishing.",
+            "images": [
+                "assets/images/products/cup_cakes/customized_1.jpg",
+                "assets/images/products/cup_cakes/customized_2.jpg",
+                "assets/images/products/cup_cakes/customized_3.jpg"
+            ],
+            "badge": "Customizable",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "6 cupcakes", "price": 540 },
+                    { "label": "12 cupcakes", "price": 980 },
+                    { "label": "24 cupcakes", "price": 1780 }
+                ],
+                "flavours": [
+                    "Vanilla Bean",
+                    "Butterscotch",
+                    "Mocha",
+                    "Strawberry Cream"
+                ],
+                "colors": ["Pastel Pink", "Lavender", "Cream Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "french-macaron-box",
+            "name": "French Macaron Box",
+            "category": "Macarons",
+            "description": "Delicate macarons in vibrant colours and soft fillings for gifting and celebrations.",
+            "images": [
+                "assets/images/products/macarons/french_macron.jpg",
+                "assets/images/products/macarons/combo_box_1.jpg"
+            ],
+            "badge": "Luxury Bite",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 420 },
+                    { "label": "Box of 12", "price": 820 },
+                    { "label": "Box of 24", "price": 1600 }
+                ],
+                "flavours": ["Strawberry", "Chocolate", "Pistachio", "Vanilla"],
+                "colors": ["Pink Pastel", "Cream Gold", "Tricolor", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "combo-macaron-box",
+            "name": "Combo Macaron Box",
+            "category": "Macarons",
+            "description": "A mixed set of buttery macarons with signature cream fillings and gift-ready styling.",
+            "images": [
+                "assets/images/products/macarons/combo_box_2.jpg",
+                "assets/images/products/macarons/combo_mini.jpg"
+            ],
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 430 },
+                    { "label": "Box of 12", "price": 860 },
+                    { "label": "Box of 24", "price": 1650 }
+                ],
+                "flavours": [
+                    "Chocolate & Caramel",
+                    "Strawberry Cream",
+                    "Pistachio"
+                ],
+                "colors": ["Rose Pink", "Cream Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "festival-gifting-hamper",
+            "name": "Festival Gifting Hamper",
+            "category": "Hampers",
+            "description": "A festive hamper with sweet gifting favourites and celebration-ready finishing touches.",
+            "images": [
+                "assets/images/products/hamper/diwali_hamper_set.jpg",
+                "assets/images/products/hamper/diwali_hamper_set_premium.jpg"
+            ],
+            "badge": "Festival Sale",
+            "eggless": true,
+            "available": true,
+            "leadDays": 5,
+            "options": {
+                "sizes": [
+                    { "label": "Classic", "price": 2290 },
+                    { "label": "Grande", "price": 3290 }
+                ],
+                "flavours": ["Festive Assortment"],
+                "colors": ["Saffron", "Maroon", "Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

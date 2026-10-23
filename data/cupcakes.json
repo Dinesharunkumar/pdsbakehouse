@@ -1,0 +1,92 @@
+{
+    "title": "Cupcakes",
+    "subtitle": "Playful cupcakes for birthdays, gifting and cheerful little moments.",
+    "banner": "Little bites, big smiles — customise every colour, flavour and message to match your sweet moment.",
+    "categories": ["Theme Cupcakes", "Custom Cupcakes"],
+    "items": [
+        {
+            "id": "avengers-cupcake-box",
+            "name": "Avengers Cupcake Box",
+            "category": "Theme Cupcakes",
+            "description": "Playful cupcakes in bold themed colours for birthdays and fun celebrations.",
+            "images": ["assets/images/products/cup_cakes/avengers.jpg"],
+            "badge": "Fun Pick",
+            "eggless": true,
+            "available": true,
+            "leadDays": 1,
+            "options": {
+                "sizes": [
+                    { "label": "6 cupcakes", "price": 420 },
+                    { "label": "12 cupcakes", "price": 780 },
+                    { "label": "24 cupcakes", "price": 1480 }
+                ],
+                "flavours": [
+                    "Vanilla Bean",
+                    "Strawberry Cream",
+                    "Chocolate Fudge"
+                ],
+                "colors": [
+                    "Classic Pink",
+                    "Royal Blue",
+                    "Pastel Mix",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "customized-cupcake-box",
+            "name": "Customized Cupcake Box",
+            "category": "Custom Cupcakes",
+            "description": "A fully custom cupcake box with chosen flavours, colours and message finishing.",
+            "images": [
+                "assets/images/products/cup_cakes/customized_1.jpg",
+                "assets/images/products/cup_cakes/customized_2.jpg",
+                "assets/images/products/cup_cakes/customized_3.jpg"
+            ],
+            "badge": "Customizable",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "6 cupcakes", "price": 540 },
+                    { "label": "12 cupcakes", "price": 980 },
+                    { "label": "24 cupcakes", "price": 1780 }
+                ],
+                "flavours": [
+                    "Vanilla Bean",
+                    "Butterscotch",
+                    "Mocha",
+                    "Strawberry Cream"
+                ],
+                "colors": ["Pastel Pink", "Lavender", "Cream Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "minion-cupcake-box",
+            "name": "Minion Cupcake Box",
+            "category": "Theme Cupcakes",
+            "description": "A playful, bright cupcake set with cheerful colours and fun character-inspired styling.",
+            "images": ["assets/images/products/cup_cakes/minions.jpg"],
+            "badge": "Party Favourite",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "6 cupcakes", "price": 460 },
+                    { "label": "12 cupcakes", "price": 860 },
+                    { "label": "24 cupcakes", "price": 1660 }
+                ],
+                "flavours": ["Vanilla", "Chocolate", "Strawberry"],
+                "colors": ["Yellow & Blue", "Pastel Mix", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

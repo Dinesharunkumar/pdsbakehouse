@@ -1,0 +1,187 @@
+{
+    "title": "Cakes",
+    "subtitle": "Celebration cakes crafted for every little milestone and grand occasion.",
+    "banner": "Make it personal and magical — choose your flavour, colour, theme, message and let the celebration begin.",
+    "categories": ["Signature Cakes", "Theme Cakes", "Mini Cakes"],
+    "items": [
+        {
+            "id": "brownie-cake",
+            "name": "Brownie Cake",
+            "category": "Signature Cakes",
+            "description": "Rich chocolate brownie base finished with berries, Oreo crunch and a celebration-ready styling.",
+            "images": [
+                "assets/images/products/cakes/brownie_cake_1.jpg",
+                "assets/images/products/cakes/brownie_cake_2.jpg"
+            ],
+            "badge": "Best Seller",
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "originalPrice": 2100,
+            "options": {
+                "sizes": [
+                    { "label": "Half kg", "price": 1600 },
+                    { "label": "1 kg", "price": 2100 },
+                    { "label": "2 kg", "price": 3200 }
+                ],
+                "flavours": [
+                    "Dark Chocolate",
+                    "Brownie Delight",
+                    "Strawberry Oreo"
+                ],
+                "colors": [
+                    "Classic Brown",
+                    "Rose Gold",
+                    "Pink Cream",
+                    "Royal Gold",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "mermaid-cake",
+            "name": "Mermaid Cake",
+            "category": "Signature Cakes",
+            "description": "Dreamy aqua layers, soft cream work and a magical seaside finish for playful celebrations.",
+            "images": ["assets/images/products/cakes/mermaid_cake.jpg"],
+            "badge": "Pastel Favourite",
+            "eggless": true,
+            "available": true,
+            "leadDays": 3,
+            "originalPrice": 2400,
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 2400 },
+                    { "label": "2 kg", "price": 3600 }
+                ],
+                "flavours": ["Blue Vanilla", "Berry Cream", "Coconut Delight"],
+                "colors": [
+                    "Aqua Blue",
+                    "Seafoam",
+                    "Pastel Pink",
+                    "Pearl White",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "spiderman-cake",
+            "name": "Spiderman Cake",
+            "category": "Theme Cakes",
+            "description": "A fun blue buttercream cake with Spiderman topper details and bright celebration styling.",
+            "images": ["assets/images/products/cakes/spiderman_cake.jpg"],
+            "eggless": false,
+            "available": true,
+            "leadDays": 3,
+            "originalPrice": 2400,
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 2400 },
+                    { "label": "2 kg", "price": 3600 },
+                    { "label": "3 kg", "price": 5000 }
+                ],
+                "flavours": ["Vanilla Blue", "Chocolate Fudge", "Funfetti"],
+                "colors": [
+                    "Classic Blue",
+                    "Red Accent",
+                    "Black & Gold",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "stranger-things-cake",
+            "name": "Stranger Things Cake",
+            "category": "Theme Cakes",
+            "description": "A character-inspired celebration cake with layered cream, playful lettering and bold styling.",
+            "images": [
+                "assets/images/products/cakes/stranger_things_1.jpg",
+                "assets/images/products/cakes/stranger_things_2.jpg"
+            ],
+            "badge": "Fan Favourite",
+            "eggless": true,
+            "available": true,
+            "leadDays": 4,
+            "originalPrice": 2600,
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 2600 },
+                    { "label": "2 kg", "price": 3900 },
+                    { "label": "3 kg", "price": 5400 }
+                ],
+                "flavours": ["Chocolate Cream", "Vanilla Bean", "Brown Butter"],
+                "colors": [
+                    "Dark Theme",
+                    "Cream & Blue",
+                    "Gold Accent",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "unicorn-cake",
+            "name": "Unicorn Cake",
+            "category": "Signature Cakes",
+            "description": "A pastel celebration cake with soft icing work, sweet textures and joyful finishing details.",
+            "images": ["assets/images/products/cakes/unicorn_cake.jpg"],
+            "badge": "Pastel Pick",
+            "eggless": true,
+            "available": true,
+            "leadDays": 3,
+            "originalPrice": 2300,
+            "options": {
+                "sizes": [
+                    { "label": "Half kg", "price": 1700 },
+                    { "label": "1 kg", "price": 2300 },
+                    { "label": "2 kg", "price": 3450 }
+                ],
+                "flavours": ["Vanilla Cloud", "Berry Swirl", "Soft Chocolate"],
+                "colors": ["Pink & Purple", "Sky Blue", "Mint Cream", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "pinata-blueberry-cake",
+            "name": "Pinata Blueberry Cake",
+            "category": "Theme Cakes",
+            "description": "A celebratory pinata cake with hidden chocolate treats, berry notes and vibrant styling.",
+            "images": [
+                "assets/images/products/cakes/pinatas_blueberry.jpg",
+                "assets/images/products/cakes/pinatas_gold.jpg"
+            ],
+            "badge": "Party Special",
+            "eggless": true,
+            "available": true,
+            "leadDays": 4,
+            "originalPrice": 2700,
+            "options": {
+                "sizes": [
+                    { "label": "1 kg", "price": 2700 },
+                    { "label": "2 kg", "price": 4200 }
+                ],
+                "flavours": [
+                    "Blueberry Cream",
+                    "Chocolate Fudge",
+                    "Vanilla Bean"
+                ],
+                "colors": [
+                    "Blue Theme",
+                    "Golden Theme",
+                    "Pastel Pink",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Explore previous custom cakes, gifting boxes and dessert styling work from our pastry studio."
+        />
+        <meta property="og:title" content="Previous Works | PD's Bake House" />
+        <meta
+            property="og:description"
+            content="Gallery of custom celebration cakes and thoughtfully styled pastry displays."
+        />
+        <title>Previous Works | PD's Bake House</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            display: ["Cormorant Garamond", "serif"],
+                            body: ["Poppins", "sans-serif"],
+                        },
+                    },
+                },
+            };
+        </script>
+        <link rel="stylesheet" href="css/custom.css" />
+    </head>
+    <body data-page="previous-works">
+        <header class="topbar">
+            <div class="container flex items-center justify-between py-3 gap-3">
+                <a
+                    href="index.html"
+                    class="brand-mark"
+                    aria-label="PD's Bake House home"
+                >
+                    <img
+                        src="assets/images/brand-logo.png"
+                        alt="PD's Bake House logo"
+                        class="brand-logo"
+                    />
+                </a>
+                <nav class="nav-links" data-nav></nav>
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    data-menu-toggle
+                    aria-label="Toggle navigation"
+                >
+                    ☰
+                </button>
+            </div>
+            <div class="mobile-menu" data-mobile-nav></div>
+        </header>
+
+        <main data-page-root>
+            <section class="page-hero">
+                <div class="container hero-inner">
+                    <span class="eyebrow">Gallery</span>
+                    <h1>Previous works</h1>
+                    <p class="lead">
+                        A small collection of celebration cakes, dessert styling
+                        and gifting arrangements we have designed for happy
+                        moments.
+                    </p>
+                </div>
+            </section>
+
+            <section class="container section">
+                <div class="catalog-filter" id="gallery-filters"></div>
+                <div class="masonry-grid" id="gallery-grid"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div>
+                    <a
+                        href="index.html"
+                        class="brand-mark text-white mb-4 inline-block"
+                        ><img
+                            src="assets/images/brand-logo.png"
+                            alt="PD's Bake House logo"
+                            class="brand-logo"
+                    /></a>
+                    <p data-shop-tagline>
+                        Freshly baked joy, beautifully crafted since 2019.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-white">Contact</h3>
+                    <div class="mt-3 flex flex-col gap-2">
+                        <a href="tel:+919876543210" data-shop-phone
+                            >+91 98765 43210</a
+                        >
+                        <a href="mailto:hello@pdsbakehouse.com" data-shop-email
+                            >hello@pdsbakehouse.com</a
+                        >
+                        <span data-shop-address
+                            >12 Rosewood Lane, Powai, Mumbai 400076</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="lightbox" data-lightbox aria-hidden="true">
+            <div class="lightbox-content">
+                <button
+                    type="button"
+                    class="lightbox-close"
+                    data-lightbox-close
+                    aria-label="Close gallery image"
+                >
+                    ×
+                </button>
+                <img src="" alt="Selected gallery image" data-lightbox-image />
+            </div>
+        </div>
+
+        <a
+            href="https://wa.me/919876543210"
+            class="whatsapp-float"
+            target="_blank"
+            rel="noopener"
+            data-floating-whatsapp
+            aria-label="Chat on WhatsApp"
+            >WA</a
+        >
+        <div class="cart-float">
+            <button
+                class="cart-button"
+                type="button"
+                data-cart-button
+                aria-label="Open cart"
+            >
+                <span>Cart</span
+                ><span class="cart-badge hidden" data-cart-count>0</span>
+            </button>
+        </div>
+        <div class="modal" data-order-modal aria-hidden="true">
+            <div class="modal-panel" data-order-body></div>
+        </div>
+        <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+            <div class="drawer-header flex items-center justify-between">
+                <h3>Your cart</h3>
+                <button
+                    type="button"
+                    class="icon-btn"
+                    data-close-cart
+                    aria-label="Close cart"
+                >
+                    ×
+                </button>
+            </div>
+            <div class="drawer-body" data-cart-body></div>
+            <div class="drawer-footer">
+                <div class="flex items-center justify-between mb-3">
+                    <span>Total</span><strong data-cart-total>₹0</strong>
+                </div>
+                <button
+                    type="button"
+                    class="primary-btn w-full"
+                    data-cart-submit
+                >
+                    Place order on WhatsApp
+                </button>
+            </div>
+        </aside>
+
+        <script type="module" src="js/app.js"></script>
+        <script type="module" src="js/order.js"></script>
+        <script type="module" src="js/carousel.js"></script>
+    </body>
+</html>

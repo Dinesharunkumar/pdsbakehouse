@@ -1,0 +1,29 @@
+{
+    "title": "Reviews",
+    "items": [
+        {
+            "name": "Aditi S.",
+            "rating": 5,
+            "text": "The cake looked stunning and tasted even better. Our guests were asking for the recipe!",
+            "date": "2026-09-12"
+        },
+        {
+            "name": "Rohan P.",
+            "rating": 5,
+            "text": "The brownies were rich, fresh and beautifully packed. It felt premium from start to finish.",
+            "date": "2026-08-22"
+        },
+        {
+            "name": "Meera K.",
+            "rating": 4,
+            "text": "Loved the custom message on the cake. Delivery was on time and the packaging was adorable.",
+            "date": "2026-07-08"
+        },
+        {
+            "name": "Nikhil V.",
+            "rating": 5,
+            "text": "Perfect for a small office celebration. The flavors were balanced and the team loved every slice.",
+            "date": "2026-06-13"
+        }
+    ]
+}

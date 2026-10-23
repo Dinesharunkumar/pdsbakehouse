@@ -1,0 +1,48 @@
+{
+    "title": "Previous Works",
+    "categories": ["Cakes", "Cupcakes", "Gifting", "Festivals"],
+    "items": [
+        {
+            "id": 1,
+            "title": "Mermaid Cake",
+            "category": "Cakes",
+            "image": "assets/images/products/cakes/mermaid_cake.jpg",
+            "description": "A pastel underwater cake for a dreamy celebration."
+        },
+        {
+            "id": 2,
+            "title": "Brownie Cake",
+            "category": "Cakes",
+            "image": "assets/images/products/cakes/brownie_cake_1.jpg",
+            "description": "A rich chocolate celebration cake with bold layered textures."
+        },
+        {
+            "id": 3,
+            "title": "Pinata Blueberry Cake",
+            "category": "Cakes",
+            "image": "assets/images/products/cakes/pinatas_blueberry.jpg",
+            "description": "A playful party cake with vibrant colour and hidden chocolate details."
+        },
+        {
+            "id": 4,
+            "title": "Custom Cupcake Box",
+            "category": "Cupcakes",
+            "image": "assets/images/products/cup_cakes/customized_1.jpg",
+            "description": "Custom-coloured cupcakes with a handcrafted sweet finish."
+        },
+        {
+            "id": 5,
+            "title": "Diwali Hamper Set",
+            "category": "Festivals",
+            "image": "assets/images/products/hamper/diwali_hamper_set.jpg",
+            "description": "A festive gifting box styled for warm seasonal celebrations."
+        },
+        {
+            "id": 6,
+            "title": "French Macaron Box",
+            "category": "Gifting",
+            "image": "assets/images/products/macarons/french_macron.jpg",
+            "description": "Soft pastel macarons packaged beautifully for gifting."
+        }
+    ]
+}

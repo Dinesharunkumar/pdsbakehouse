@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Meet the pastry chef behind the recipes, styling and celebration cakes at our bakery."
+        />
+        <meta property="og:title" content="About the Chef | PD's Bake House" />
+        <meta
+            property="og:description"
+            content="A pastry chef mixing classic techniques with modern celebration aesthetics."
+        />
+        <title>About the Chef | PD's Bake House</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            display: ["Cormorant Garamond", "serif"],
+                            body: ["Poppins", "sans-serif"],
+                        },
+                    },
+                },
+            };
+        </script>
+        <link rel="stylesheet" href="css/custom.css" />
+    </head>
+    <body data-page="about-chef">
+        <header class="topbar">
+            <div class="container flex items-center justify-between py-3 gap-3">
+                <a
+                    href="index.html"
+                    class="brand-mark"
+                    aria-label="PD's Bake House home"
+                >
+                    <img
+                        src="assets/images/brand-logo.png"
+                        alt="PD's Bake House logo"
+                        class="brand-logo"
+                    />
+                </a>
+                <nav class="nav-links" data-nav></nav>
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    data-menu-toggle
+                    aria-label="Toggle navigation"
+                >
+                    ☰
+                </button>
+            </div>
+            <div class="mobile-menu" data-mobile-nav></div>
+        </header>
+
+        <main data-page-root>
+            <section class="page-hero">
+                <div class="container hero-inner">
+                    <span class="eyebrow">The baker behind it</span>
+                    <h1>Chef PD</h1>
+                    <p class="lead">
+                        Behind PD's Bake House is a pastry craft rooted in
+                        patience, detail and the joy of creating desserts that
+                        feel like part of the celebration itself.
+                    </p>
+                </div>
+            </section>
+
+            <section class="container section">
+                <div class="grid lg:grid-cols-2 gap-8 items-center">
+                    <div class="image-card image-card--full">
+                        <img
+                            src="assets/images/gallery/chef/Lavonne_chef.jpg"
+                            alt="Chef PD smiling with pastry tools"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div>
+                        <span class="eyebrow">Crafted with heart</span>
+                        <h2>Turning sweet ideas into celebration moments.</h2>
+                        <p>
+                            Chef PD blends pastry technique with a personal,
+                            artistic eye. Every cake is designed to feel warm,
+                            memorable and deeply personal — whether it is a
+                            birthday centrepiece or a thoughtfully packed gift.
+                        </p>
+                        <p>
+                            The result is a menu that feels both elegant and
+                            comforting: refined enough for special occasions,
+                            playful enough for joyful family moments.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container section">
+                <div class="grid lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <span class="eyebrow">Professional milestone</span>
+                        <h2>
+                            Lavonne Academy: a mark of serious pastry training.
+                        </h2>
+                        <p>
+                            Chef PD completed a baking certification at Lavonne
+                            Academy of Baking Science and Pastry Arts, a
+                            well-regarded name in the Indian baking and pastry
+                            education space.
+                        </p>
+                        <p>
+                            Lavonne is known for combining technical discipline,
+                            creative execution and bakery professionalism — the
+                            kind of training that helps a chef understand not
+                            just taste, but structure, finish, balance and
+                            consistency.
+                        </p>
+                        <p>
+                            <strong>Batch 31 of Lavonne ❤️</strong>
+                        </p>
+                        <p>
+                            It’s fascinating how a passion brings people from
+                            different backgrounds together ❤️
+                        </p>
+                    </div>
+                    <div class="image-card">
+                        <img
+                            src="assets/images/gallery/chef/chef_certification.jpg"
+                            alt="Chef PD with Lavonne Academy certification"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="container section">
+                <div class="grid lg:grid-cols-2 gap-8 items-center">
+                    <div class="image-slider" data-carousel>
+                        <div class="slides">
+                            <img
+                                class="slide"
+                                src="assets/images/gallery/chef/Lavonne_batch_1.jpg"
+                                alt="Chef PD at Lavonne Academy batch training"
+                                loading="lazy"
+                                data-full="assets/images/gallery/chef/Lavonne_batch_1.jpg"
+                            />
+                            <img
+                                class="slide"
+                                src="assets/images/gallery/chef/Lavonne_batch_2.jpg"
+                                alt="Chef PD with Lavonne Academy batch peers"
+                                loading="lazy"
+                                data-full="assets/images/gallery/chef/Lavonne_batch_2.jpg"
+                            />
+                        </div>
+                        <div class="slider-controls">
+                            <button
+                                type="button"
+                                class="slider-control"
+                                data-carousel-prev
+                                aria-label="Previous Lavonne image"
+                            >
+                                ‹
+                            </button>
+                            <button
+                                type="button"
+                                class="slider-control"
+                                data-carousel-next
+                                aria-label="Next Lavonne image"
+                            >
+                                ›
+                            </button>
+                        </div>
+                        <div class="slider-dots"></div>
+                    </div>
+                    <div>
+                        <span class="eyebrow">Why it adds value</span>
+                        <h2>
+                            Better technique, stronger details, better desserts.
+                        </h2>
+                        <p>
+                            Professional training adds more than technique — it
+                            builds confidence, consistency and a deeper
+                            understanding of ingredients, textures and
+                            presentation.
+                        </p>
+                        <p>
+                            That is why every cake, brownie and celebration
+                            treat at PD's Bake House feels considered: the
+                            structure is sound, the finish is polished and the
+                            flavor is balanced from the first bite to the last.
+                        </p>
+                        <p>
+                            The result is a chef who understands both the
+                            science of baking and the emotion behind a memorable
+                            dessert.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container section">
+                <div class="grid-3">
+                    <div class="card p-6">
+                        <h3>Signature style</h3>
+                        <p>
+                            Soft pastel tones, sculpted layers and thoughtful
+                            finishing details.
+                        </p>
+                    </div>
+                    <div class="card p-6">
+                        <h3>Flavor-first</h3>
+                        <p>
+                            Balanced sweetness, beautiful textures and
+                            ingredients chosen for consistency.
+                        </p>
+                    </div>
+                    <div class="card p-6">
+                        <h3>Celebration focus</h3>
+                        <p>
+                            Designed for birthdays, gifting, office celebrations
+                            and intimate family events.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div>
+                    <a
+                        href="index.html"
+                        class="brand-mark text-white mb-4 inline-block"
+                        ><img
+                            src="assets/images/brand-logo.png"
+                            alt="PD's Bake House logo"
+                            class="brand-logo"
+                    /></a>
+                    <p data-shop-tagline>
+                        Freshly baked joy, beautifully crafted since 2019.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl text-white">Contact</h3>
+                    <div class="mt-3 flex flex-col gap-2">
+                        <a href="tel:+919876543210" data-shop-phone>
+                            +91 98765 43210
+                        </a>
+                        <a href="mailto:hello@pdsbakehouse.com" data-shop-email>
+                            hello@pdsbakehouse.com
+                        </a>
+                        <span data-shop-address>
+                            12 Rosewood Lane, Powai, Mumbai 400076
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a
+            href="https://wa.me/919876543210"
+            class="whatsapp-float"
+            target="_blank"
+            rel="noopener"
+            data-floating-whatsapp
+            aria-label="Chat on WhatsApp"
+            >WA</a
+        >
+        <div class="cart-float">
+            <button
+                class="cart-button"
+                type="button"
+                data-cart-button
+                aria-label="Open cart"
+            >
+                <span>Cart</span
+                ><span class="cart-badge hidden" data-cart-count>0</span>
+            </button>
+        </div>
+        <div class="modal" data-order-modal aria-hidden="true">
+            <div class="modal-panel" data-order-body></div>
+        </div>
+        <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+            <div class="drawer-header flex items-center justify-between">
+                <h3>Your cart</h3>
+                <button
+                    type="button"
+                    class="icon-btn"
+                    data-close-cart
+                    aria-label="Close cart"
+                >
+                    ×
+                </button>
+            </div>
+            <div class="drawer-body" data-cart-body></div>
+            <div class="drawer-footer">
+                <div class="flex items-center justify-between mb-3">
+                    <span>Total</span><strong data-cart-total>₹0</strong>
+                </div>
+                <button
+                    type="button"
+                    class="primary-btn w-full"
+                    data-cart-submit
+                >
+                    Place order on WhatsApp
+                </button>
+            </div>
+        </aside>
+
+        <script type="module" src="js/app.js"></script>
+        <script type="module" src="js/order.js"></script>
+    </body>
+</html>

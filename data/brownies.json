@@ -1,0 +1,123 @@
+{
+    "title": "Brownies",
+    "subtitle": "Fudgy slices and rich brownies for gifting, snacking and dessert tables.",
+    "banner": "Rich, fudgy and made to feel special — pick your flavours, finish and message for a box that feels personal.",
+    "categories": ["Classic Brownies", "Loaded Brownies", "Gift Packs"],
+    "items": [
+        {
+            "id": "classic-fudge-brownie",
+            "name": "Classic Fudge Brownie",
+            "category": "Classic Brownies",
+            "description": "Dense chocolate brownie with a crackly top and molten centre.",
+            "images": [
+                "assets/images/products/brownie/chocolate_brownie_with_gems.jpg"
+            ],
+            "badge": "Popular",
+            "eggless": false,
+            "available": true,
+            "leadDays": 1,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 450 },
+                    { "label": "Box of 12", "price": 850 },
+                    { "label": "Box of 24", "price": 1600 }
+                ],
+                "flavours": ["Dark Chocolate", "Milk Chocolate"],
+                "colors": [
+                    "Classic Brown",
+                    "Milk Chocolate",
+                    "Golden Drizzle",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": false
+            }
+        },
+        {
+            "id": "nutella-brownie",
+            "name": "Nutella Brownie",
+            "category": "Loaded Brownies",
+            "description": "Soft chocolate brownie with a creamy hazelnut swirl and extra indulgent finish.",
+            "images": ["assets/images/products/brownie/nutella_brownie.jpg"],
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "originalPrice": 1000,
+            "options": {
+                "sizes": [
+                    { "label": "Box of 6", "price": 700 },
+                    { "label": "Box of 12", "price": 1350 },
+                    { "label": "Box of 18", "price": 1900 }
+                ],
+                "flavours": [
+                    "Nutella Swirl",
+                    "Hazelnut Crunch",
+                    "Salted Caramel"
+                ],
+                "colors": [
+                    "Chocolate Brown",
+                    "Hazelnut Gold",
+                    "Cream Accent",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": false
+            }
+        },
+        {
+            "id": "nutella-brownie-cake",
+            "name": "Nutella Brownie Cake",
+            "category": "Loaded Brownies",
+            "description": "A brownie cake layered with Nutella cream, glossy finish and rich chocolate comfort.",
+            "images": [
+                "assets/images/products/brownie/nutella_brownie_cake.jpg"
+            ],
+            "eggless": true,
+            "available": true,
+            "leadDays": 2,
+            "options": {
+                "sizes": [
+                    { "label": "Half kg", "price": 1200 },
+                    { "label": "1 kg", "price": 2200 },
+                    { "label": "2 kg", "price": 3500 }
+                ],
+                "flavours": [
+                    "Nutella Fudge",
+                    "Chocolate Ganache",
+                    "Caramel Swirl"
+                ],
+                "colors": [
+                    "Dark Cocoa",
+                    "Gold Accents",
+                    "Caramel Cream",
+                    "Custom"
+                ],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        },
+        {
+            "id": "brownie-gift-box",
+            "name": "Brownie Gift Box",
+            "category": "Gift Packs",
+            "description": "A curated pack of assorted brownies, truffles and a handwritten note.",
+            "images": [
+                "assets/images/products/brownie/chocolate_brownie_with_gems.jpg"
+            ],
+            "badge": "Gift Ready",
+            "eggless": false,
+            "available": false,
+            "leadDays": 3,
+            "options": {
+                "sizes": [
+                    { "label": "Standard", "price": 1490 },
+                    { "label": "Luxury", "price": 2490 }
+                ],
+                "flavours": ["Assorted"],
+                "colors": ["Classic Brown", "Rose Gold", "Custom"],
+                "allowMessage": true,
+                "allowDate": true
+            }
+        }
+    ]
+}
